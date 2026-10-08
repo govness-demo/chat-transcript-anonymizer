@@ -1,0 +1,18 @@
+# Fictional demo block: see README.md.
+schema_version: 1
+id: "open-civic-labs.chat-transcript-anonymizer"
+name: "Chat transcript anonymizer"
+type: "skill"
+version: "0.2.0"
+summary: "Removes personal details from chat transcripts before they are used to improve a public assistant."
+description: "A command-line tool that anonymizes transcripts for analysis and training."
+publisher:
+  environment: "open-civic-labs"
+  body: "Open Civic Labs"
+languages: ["en"]
+license: "MIT"
+interfaces:
+  protocol: "cli"
+links:
+  repo: "https://github.com/govness-demo/chat-transcript-anonymizer"
+domains: ["cybersecurity"]
